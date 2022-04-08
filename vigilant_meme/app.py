@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+vigilant_meme API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="vigilant_meme",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://vigilant_meme.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "SAMZONG",
+        "url": "http://vigilant_meme.com/contact/",
+        "email": "SAMZONG@vigilant_meme.com",
     },
     license_info={
         "name": "The Unlicense",
